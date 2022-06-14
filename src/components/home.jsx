@@ -9,16 +9,17 @@ import "./css/header/header.css";
 import "./css/header/ToggleSwitch.css";
 import About from "./about";
 import Project from "./project";
+import Contact from "./contact";
 
 export default function Home() {
   return (
-    <div>
-      <div className="main">
+    <div id="greet">
+      <div className="main" >
         <div className="greeting-main">
           <div className="greeting-text-div">
             <h1 className="greeting-text">
               {" "}
-              Hi all, I'm Vinayak{" "}
+              Hi, I'm Vinayak{" "}
               <span className="wave-emoji">
                 {" "}
                 <img
@@ -30,7 +31,7 @@ export default function Home() {
             </h1>
             <p className="greeting-text-p subTitle">
               Creative coding enthusiast , currently pursuing Bachelors of
-              technology from UTU, Dehradun , leaning forward to learn about
+              technology from RGPV, Indore , leaning forward to learn about
               cloud and DevOps ,want to create carrier in the same , Having
               experience in web-development looking forward to challenge my
               skills in suitable environment.
@@ -73,7 +74,7 @@ export default function Home() {
                 <i className="fab fa-twitter"></i>
                 <span></span>
               </a>
-              <a
+              {/* <a
                 href="https://stackoverflow.com/users/17807745/ayush-nigam"
                 className="icon-button stack-overflow"
                 target="_blank"
@@ -81,7 +82,7 @@ export default function Home() {
               >
                 <i className="fab fa-stack-overflow"></i>
                 <span></span>
-              </a>
+              </a> */}
             </div>
             <div className="button-greeting-div">
               <div>
@@ -103,20 +104,20 @@ export default function Home() {
           </div>
           <div className="greeting-image-div">
             <div >
-              <lottie-player
-                src="https://assets6.lottiefiles.com/packages/lf20_fQij9m.json"
-                background="transparent"
-                speed="1"
-                style={{ Width: "100px", Height: "100px" }}
-                loop
-                autoplay
-              ></lottie-player>
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_wci9dxrs.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
             </div>
           </div>
         </div>
       </div>
       <About/>
       <Project/>
+      <Contact/>
     </div>
   );
 }

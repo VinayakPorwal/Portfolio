@@ -7,7 +7,7 @@ export default function footer() {
         className="footer-div"
       >
         <p className="footer-text">Made by Vinayak Porwal</p>
-        <p className="footer-text"></p>
+        <p className="footer-text" style={{fontSize : "medium"}}>©️ All rights reserved</p>
       </div>
     </div>
   );

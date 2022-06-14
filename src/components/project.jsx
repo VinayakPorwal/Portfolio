@@ -3,6 +3,9 @@ import React from "react";
 import "./css/experience/experienceCard.css";
 import "./css/experience/workExperience.css";
 import "./css/experience/podcast.css";
+import fookreyweb from "../images/fookreyweb.png";
+import chathook from "../images/chathook.png";
+import ekeytab from "../images/notebook.svg";
 function Project() {
   return (
     <div id="experience">
@@ -13,7 +16,7 @@ function Project() {
             <div className="experience-card">
               <div
                 className="experience-banner"
-                style={{background: 'rgb(80, 53, 69)'}}
+                style={{background: 'rgb(220, 200, 0)'}}
               >
                 <div className="experience-blurred_div"></div>
                 <div className="experience-div-company">
@@ -22,73 +25,85 @@ function Project() {
                 <img
                   crossOrigin="anonymous"
                   className="experience-roundedimg"
-                  src="/static/media/girl.64442d73.png"
+                  src={fookreyweb}
                   alt="React-JS"
                 />
               </div>
               <div className="experience-text-details">
-                <h5 className="experience-text-role">COVID-19 Tracker</h5>
-                <h5 className="experience-text-date">December - 2021</h5>
+                <h5 className="experience-text-role">Social Media App</h5>
+                <h5 className="experience-text-date">March - 2021</h5>
                 <p className="subTitle experience-text-desc">
-                  Live COVID-19 situation tracker for live scenario
+                  Social Media Clone With Database
                 </p>
                 <ul>
-                  <li className="subTitle">Creating React APP</li>
-                  <li className="subTitle">Generating API</li>
-                  <li className="subTitle">Calling API</li>
-                  <li className="subTitle">Deploying final product</li>
+                  <li className="subTitle">CRUD Operation with Post and comments</li>
+                  <li className="subTitle">User Registeration and Profile</li>
+                  <li className="subTitle">One-to-One Chat</li>
+                  <li className="subTitle">Deployed final product</li>
+                  <a href="http:/fookreywebs.epizy.com">Go to Project</a>
                 </ul>
               </div>
             </div>
             <div className="experience-card">
               <div
                 className="experience-banner"
-                style={{background: 'rgb(214, 211, 211)'}}
+                style={{background: '#36aaff'}}
               >
                 <div className="experience-blurred_div"></div>
                 <div className="experience-div-company">
-                  <h5 className="experience-text-company">Python</h5>
+                  <h5 className="experience-text-company">React-Firebase</h5>
                 </div>
                 <img
                   crossOrigin="anonymous"
                   className="experience-roundedimg"
-                  src="/static/media/space.617caae3.png"
+                  src={chathook}
                   alt="Python"
                 />
               </div>
               <div className="experience-text-details">
-                <h5 className="experience-text-role">Space Invader</h5>
-                <h5 className="experience-text-date">January - 2022</h5>
+                <h5 className="experience-text-role">Chathook</h5>
+                <h5 className="experience-text-date">November - 2021</h5>
                 <p className="subTitle experience-text-desc">
-                  A time buster Game/Software to play when you are bored using
-                  PyGame.
+                  A Real time Chat Application for Group chat With Google Authentication.
                 </p>
-                <ul></ul>
+                <ul>
+                  <li className="subTitle">Sign in/up with Google</li>
+                  <li className="subTitle">Real Time Database provide by FIREBASE🔥</li>
+                  <li className="subTitle">Group Chat</li>
+                  <li className="subTitle">Deployed final product</li>
+                  <a href="https://chathook-f2855.web.app/">Go to Project</a>
+                </ul>
               </div>
             </div>
             <div className="experience-card">
               <div
                 className="experience-banner"
-                style={{background: 'rgb(28, 220, 100)'}}              >
+                style={{background: 'rgb(30, 121, 211)'}}              >
                 <div className="experience-blurred_div"></div>
                 <div className="experience-div-company">
-                  <h5 className="experience-text-company">React - Redux</h5>
+                  <h5 className="experience-text-company">JavaScript-php</h5>
                 </div>
                 <img
                   crossOrigin="anonymous"
                   className="experience-roundedimg"
-                  src="/static/media/spotify.2b37ba76.png"
+                  src={ekeytab}
                   alt="React - Redux"
                 />
               </div>
               <div className="experience-text-details">
-                <h5 className="experience-text-role">Spotify - Clone</h5>
-                <h5 className="experience-text-date">November - 2021</h5>
+                <h5 className="experience-text-role">E-book Platform</h5>
+                <h5 className="experience-text-date">March - 2022</h5>
                 <p className="subTitle experience-text-desc">
-                  A React application made similar like original Spotify using
-                  React - Redux
+                  A application made similar like original Google E-book using
+                  Google Api.
                 </p>
-                <ul></ul>
+                <ul>
+                <li className="subTitle">Free e-Books Search and Download</li>
+                  <li className="subTitle">User Registeration and Profile</li>
+                  <li className="subTitle">Bookmark and Save Searched books</li>
+                  <li className="subTitle">Deployed final product</li>
+                  {/* <a href="http:/fookreywebs.epizy.com">Go to Project</a> */}
+                </ul>
               </div>
             </div>
           </div>

@@ -3,12 +3,12 @@ import { PaperClipIcon } from "@heroicons/react/solid";
 import "./css/Dashboard/greeting.css";
 import "./css/skills/Skills.css";
 import "./css/skills/SoftwareSkills.css";
-import "./css/skills/progress.css";
+import "./css/skills/Progress.css";
 
 export default function About() {
   return (
-    <div>
-      <div className="main" id="skills">
+    <div id="skills">
+      <div className="main">
         <div className="skills-main-div">
           <div className="skills-image-div">
             <div>
@@ -62,15 +62,15 @@ export default function About() {
                     <p>nodejs</p>
                   </li>
                   <li className="software-skill-inline" name="swift">
-                    <i className="fab fa-swift"></i>
-                    <p>swift</p>
+                    <i className="fab fa-php"></i>
+                    <p>php</p>
                   </li>
                   <li className="software-skill-inline" name="npm">
                     <i className="fab fa-npm"></i>
                     <p>npm</p>
                   </li>
                   <li className="software-skill-inline" name="python">
-                    <i className="fas fa-python"></i>
+                    <i className="fab fa-python"></i>
                     <p>python</p>
                   </li>
                   <li className="software-skill-inline" name="firebase">
@@ -93,8 +93,8 @@ export default function About() {
                     verticalAlign: "-0.1em",
                   }}
                 />{" "}
-                Develop highly interactive Front end / User Interfaces for your
-                web and mobile applications
+                Develop highly interactive Front end / User Interfaces and Back
+                end for your web applications
               </p>
               <p className="subTitle skills-text">
                 <img
@@ -129,25 +129,25 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="skills-container" >
+      <div className="skills-container">
         <div className="skills-bar">
           <h1 className="skills-heading">Proficiency</h1>
           <div className="skill">
-            <p>Frontend / REACT JS / NATIVE</p>
+            <p>WEB DEVELOPMENT</p>
+            <div className="meter">
+              <span style={{ width: "80%" }}></span>
+            </div>
+          </div>
+          <div className="skill">
+            <p>Python / C++ / C </p>
             <div className="meter">
               <span style={{ width: "70%" }}></span>
             </div>
           </div>
           <div className="skill">
-            <p>Python / C++ / C / JAVA</p>
+            <p>Data Structures</p>
             <div className="meter">
-              <span style={{ width: "60%" }}></span>
-            </div>
-          </div>
-          <div className="skill">
-            <p>APP DEVELOPMENT</p>
-            <div className="meter">
-              <span style={{ width: "40%" }}></span>
+              <span style={{ width: "55%" }}></span>
             </div>
           </div>
         </div>
@@ -155,10 +155,10 @@ export default function About() {
           {" "}
           <div>
             <lottie-player
-              src="https://assets6.lottiefiles.com/packages/lf20_fQij9m.json"
+              src="https://assets10.lottiefiles.com/packages/lf20_ul35wckt.json"
               background="transparent"
               speed="1"
-              style={{ Width: "100px", Height: "100px" }}
+              style={{ maxHeight: "40vh", marginTop:'-6rem' , transform: 'rotateY(180deg)'}}
               loop
               autoplay
             ></lottie-player>

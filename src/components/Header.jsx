@@ -2,7 +2,7 @@ import React from "react";
 import "./css/header/header.css"
 function Header() {
   return (
-    <div>
+    <div id="header">
       <header className="header">
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -14,15 +14,16 @@ function Header() {
           <span className="navicon"></span>
         </label>
         <ul className="menu">
+        <li>
+            <a href="#greet">ME</a>
+          </li>
           <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#experience">Work Experiences</a>
           </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
+          
           <li>
             <a href="#contact">Contact Me</a>
           </li>

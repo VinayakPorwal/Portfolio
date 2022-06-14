@@ -11,6 +11,7 @@ function App() {
   return (
     <BrowserRouter>
     <Header/>
+    <div id="greet"></div>
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />

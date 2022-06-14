@@ -23,6 +23,11 @@
   text-align: center;
   color: #868e96 !important;
 }
+.footer-text:hover{
+  text-align: center;
+  color: #1f2937 !important;
+  cursor: pointer;
+}
 
 .dark-mode {
   color: white !important;
@@ -30,5 +35,6 @@
 
 .footer-div {
   margin-top: 2rem;
+  border-top: 1px solid grey;
   padding-bottom: 1rem;
 }
