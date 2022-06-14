@@ -3,7 +3,7 @@ import { PaperClipIcon } from "@heroicons/react/solid";
 import "./css/Dashboard/greeting.css";
 import "./css/skills/Skills.css";
 import "./css/skills/SoftwareSkills.css";
-import "./css/skills/progress.css";
+import "./css/skills/Progress.css";
 
 export default function About() {
   return (
